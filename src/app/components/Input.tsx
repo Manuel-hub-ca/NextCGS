@@ -1,9 +1,13 @@
+import React, {  ChangeEventHandler } from 'react';
 interface MyInputProps {
   children: React.ReactNode;
   placeholder: string;
   top: number;
   type: string;
   name: string;
+  value: string
+  onChange: React.ChangeEventHandler<HTMLInputElement>
+  // e: ChangeEvent<HTMLInputElement>
 }
 
 export default function Input({
@@ -12,6 +16,8 @@ export default function Input({
   top,
   type,
   name,
+  value,
+  onChange
 }: MyInputProps) {
   return (
     <div className="mt-5 mx-auto 11/12">
@@ -27,6 +33,8 @@ export default function Input({
         style={{ top: top }}
         type={type}
         name={name}
+        value={value}
+        onChange={onChange}
       />
     </div>
   );

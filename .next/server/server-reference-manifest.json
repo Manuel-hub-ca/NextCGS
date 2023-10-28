@@ -1,4 +1,13 @@
 {
-  "node": {},
+  "node": {
+    "97845768a97dc0bbe7642bf38cfc10538735f71a": {
+      "workers": {
+        "app/ArtPieces/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cmanue%5C%5CDocuments%5C%5CProjects%5C%5CNext%5C%5CCGS%5C%5CNextCGS%5C%5Csrc%5C%5Cpages%5C%5Capi%5C%5Chelper%5C%5CfindArtistById.ts%22%2C%5B%22default%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/ArtPieces/page": "action-browser"
+      }
+    }
+  },
   "edge": {}
 }

@@ -11,10 +11,10 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/Curators/page": [
+    "/ArtPieces/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/Curators/page.js"
+      "static/chunks/app/ArtPieces/page.js"
     ]
   }
 }
