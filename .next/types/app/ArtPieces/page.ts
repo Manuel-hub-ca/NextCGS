@@ -1,4 +1,4 @@
-// File: C:\Users\manue\Documents\Projects\Next\CGS\NextCGS\src\app\ArtPieces\page.tsx
+// File: /Users/mac/Documents/Projects/Next/NextCGS/src/app/ArtPieces/page.tsx
 import * as entry from '../../../../src/app/ArtPieces/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
