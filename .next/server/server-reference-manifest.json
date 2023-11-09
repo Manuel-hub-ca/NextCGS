@@ -2,10 +2,12 @@
   "node": {
     "bee006fbb750dee36d0395d87fb4e2f696e00ad0": {
       "workers": {
-        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fmac%2FDocuments%2FProjects%2FNext%2FNextCGS%2Fsrc%2Fpages%2Fapi%2Fhelper%2FfindArtistById.ts%22%2C%5B%22default%22%5D%5D%5D&__client_imported__=true!"
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fmac%2FDocuments%2FProjects%2FNext%2FNextCGS%2Fsrc%2Fpages%2Fapi%2Fhelper%2FfindArtistById.ts%22%2C%5B%22default%22%5D%5D%5D&__client_imported__=true!",
+        "app/Curators/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fmac%2FDocuments%2FProjects%2FNext%2FNextCGS%2Fsrc%2Fpages%2Fapi%2Fhelper%2FfindArtistById.ts%22%2C%5B%22default%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
-        "app/page": "action-browser"
+        "app/page": "action-browser",
+        "app/Curators/page": "action-browser"
       }
     }
   },
