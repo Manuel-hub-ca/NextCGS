@@ -2,8 +2,7 @@ import './globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import '@radix-ui/themes/styles.css';
-import Providers from './components/Providers';
-import Appbar from './components/Appbar';
+
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -22,10 +21,7 @@ export default function RootLayout({
       <body
         className={`${inter.className} bg-slate-900 text-cyan-700 container mx-auto`}
       >
-        <Providers>
-          <Appbar />
           {children}
-        </Providers>
       </body>
     </html>
   );

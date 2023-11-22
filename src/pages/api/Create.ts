@@ -20,20 +20,20 @@ export default async function (req: NextApiRequest, res: NextApiResponse)  {
     if(entityType === "Curator"){
       const curator = await prisma.curator.create({
         data:{
-          firstName,
-          lastName,
-          phone,
-          email
+          firstName: firstName,
+          lastName: lastName,
+          phone: phone,
+          email: email
         }
       })
       return res.status(200).json(curator)
     }else{
       const artist = await prisma.artist.create({
         data: {
-          firstName,
-          lastName,
-          phone,
-          email,
+          firstName: firstName,
+          lastName: lastName,
+          phone: phone,
+          email: email
         },
       }); 
     return res.status(200).json(artist);
@@ -44,7 +44,4 @@ export default async function (req: NextApiRequest, res: NextApiResponse)  {
     console.error('Error creating artist:', error);
     return res.status(500).json({ error: 'Error creating artist' });
   }
-    
-
-    // redirect()
 };

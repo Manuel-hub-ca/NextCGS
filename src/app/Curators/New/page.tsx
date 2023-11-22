@@ -17,11 +17,6 @@ export default function Page() {
     }
 
   }, [entityType]);
-
-  // useEffect(() => {
-  //   // Log the updated entityType
-  //   console.log('Updated EntityType:', entityType);
-  // }, [entityType]);
   return (
     <Create entityType={entityType}/>
   )
